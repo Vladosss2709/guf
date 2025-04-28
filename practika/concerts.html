@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Концерты GUF | DOMA Music Label</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-custom-cursor">
+    <div id="concerts-page">
+        <header>
+            <a href="index.html" class="logo">GUF</a>
+            <nav>
+                <a href="concerts.html">Концерты</a>
+            </nav>
+        </header>
+
+        <div class="concerts-page">
+            <div class="page-title">
+                <h1>Концерты GUF</h1>
+                <p>2024 Тур по России и СНГ</p>
+            </div>
+            
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label for="city-filter">Город:</label>
+                    <select id="city-filter" class="filter">
+                        <option value="all">Все города</option>
+                        <option value="Минск">Минск</option>
+                        <option value="Краснодар">Краснодар</option>
+                        <option value="Калининград">Калининград</option>
+                        <option value="Ростов">Ростов</option>
+                        <option value="Екатеринбург">Екатеринбург</option>
+                        <option value="Челябинск">Челябинск</option>
+                        <option value="Омск">Омск</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="date-filter">Месяц:</label>
+                    <select id="date-filter" class="filter">
+                        <option value="all">Все даты</option>
+                        <option value="июль">Июль</option>
+                        <option value="август">Август</option>
+                        <option value="сентябрь">Сентябрь</option>
+                        <option value="октябрь">Октябрь</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="concerts-list" id="concerts-list">
+                <div class="concert-item" data-city="Минск" data-month="июль">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">8 июля 2024</div>
+                        <div class="concert-city">Минск, Беларусь</div>
+                        <div class="concert-venue">Клуб «Реактор»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Краснодар" data-month="август">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">15 августа 2024</div>
+                        <div class="concert-city">Краснодар, Россия</div>
+                        <div class="concert-venue">Arena Hall</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Калининград" data-month="август">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">24 августа 2024</div>
+                        <div class="concert-city">Калининград, Россия</div>
+                        <div class="concert-venue">Клуб «Город»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Ростов" data-month="сентябрь">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">7 сентября 2024</div>
+                        <div class="concert-city">Ростов-на-Дону, Россия</div>
+                        <div class="concert-venue">ДС «Ростов»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Екатеринбург" data-month="сентябрь">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">14 сентября 2024</div>
+                        <div class="concert-city">Екатеринбург, Россия</div>
+                        <div class="concert-venue">КРК «Уралец»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Челябинск" data-month="сентябрь">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">21 сентября 2024</div>
+                        <div class="concert-city">Челябинск, Россия</div>
+                        <div class="concert-venue">Концерт-холл «Event-Hall»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+                <div class="concert-item" data-city="Омск" data-month="сентябрь">
+                    <div class="concert-info">
+                        <div class="concert-name">GUF</div>
+                        <div class="concert-date">28 сентября 2024</div>
+                        <div class="concert-city">Омск, Россия</div>
+                        <div class="concert-venue">Концертный зал «Сибирь»</div>
+                    </div>
+                    <a href="https://doma.moscow/guf" class="period-icon" aria-label="Купить билеты" target="_blank"></a>
+                </div>
+            </div>
+            
+            <div class="concert-notice">
+                <p>Даты и места проведения могут изменяться. Следите за обновлениями на нашем сайте.</p>
+                <p>Все концерты начинаются в 19:00. Вход строго 18+</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
